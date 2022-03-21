@@ -45,7 +45,7 @@ public class MessageFieldsEnricher : ILogEventEnricher
 }
 
 
-internal static class NamedEventLoggerConfigurationExtensions
+public static class NamedEventLoggerConfigurationExtensions
 {
   public static LoggerConfiguration WithMessageFields(this LoggerEnrichmentConfiguration @this) =>
     @this == null
